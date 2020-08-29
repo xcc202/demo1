@@ -1,84 +1,198 @@
 <!DOCTYPE html>
 <html lang="zh-CN" dir="ltr">
-
   <head>
     <meta charset="utf-8">
-    <title>练习一</title>
+    <title>浮动+定位练习</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/master.css">
     <style>
-      body {
-        background:#4d4a40;
-        margin:0;
-        padding:20px 0;
-        line-height:2em;
+      .piao{
+        border: solid pink 1px;
+        width: 120px;
+        height: 35px;
+        color: red;
+        position: fixed;
+        left: 0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin: auto 0;
+      }
+      .piao a{
+        color: green;
       }
 
-      .back{
-        background:#fff;
-        /*border:red 2px solid;*/
-        margin:0 auto;
-        width:90%;
-        padding:30px 0;
-      }
-      .head{
-        background:#267890;
-        border:#14414a solid 5px;
-        text-align:center;
-        color:#fff;
-        margin:0 -34px;
-      }
-      .head h1{
-        font-weight:bold;
-        font-size:42px;
-      }
-
-    .back .head .yuan{
-        color:#dbdbdb;
-        font-size:30px;
-        margin-bottom:30px;
-      }
-      .back .head .yuan a{
-      text-decoration:underline;
-      }
-
-      .back .head .yuan a:hover{
-        color:#fff;
-      }
-
-      .n1{
-        width:90%;
-        margin:0 auto;
-      }
-      .n1 p{
-        margin:1em 0;
-        text-indent:2em;
-      }
-
-      .n1 h2{
-        font-size:32px;
-        font-weight:bold;
-        border-top:dashed 1px;
-        border-bottom:dashed 1px;
-        padding:7px
-      }
     </style>
   </head>
-
   <body>
-    <div class="back">
-
-      <div class="head">
-        <h1>Test</h1>
-          <div class="yuan">
-            原文：<a href="https://t.co">this</a>
+    <div class="main">
+      <p class="shang">
+        <a href="http://127.0.0.1" class="xuan">I</a>
+        <a href="http://192.168.1.1">Niu</a>
+        <a href="http://127.0.0.1">Bi</a>
+      </p>
+      <div class="zhong">
+        <div class="zhong-shang">
+          <div class="z1 tanta">
+            <div class="zuo">
+              leixin：
+            </div>
+            <div class="you">
+              <ul>
+                <li class="xuan"><a href="https://192.168.1.1">133</a> </li>
+                <li><a href="https://192.168.1.1">233</a></li>
+                <li><a href="https://192.168.1.1">333</a></li>
+                <li><a href="https://192.168.1.1">433</a></li>
+                <li><a href="https://192.168.1.1">533</a></li>
+                <li><a href="https://192.168.1.1">633</a></li>
+              </ul>
+            </div>
           </div>
-      </div>
+          <div class="z2 tanta">
+            <div class="zuo">
+              leixin：
+            </div>
+            <div class="you">
+              <ul>
+                <li><a href="https://192.168.1.1">100</a> </li>
+                <li><a href="https://192.168.1.1">200</a></li>
+                <li><a href="https://192.168.1.1">300</a></li>
+                <li><a href="https://192.168.1.1">400</a></li>
+                <li><a href="https://192.168.1.1">500</a></li>
+                <li><a href="https://192.168.1.1">600</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="z3 tanta">
+            <div class="zuo">
+              leixin：
+            </div>
+            <div class="you">
+              <ul>
+                <li><a href="https://192.168.1.1">100</a> </li>
+                <li><a href="https://192.168.1.1">200</a></li>
+                <li><a href="https://192.168.1.1">300</a></li>
+                <li><a href="https://192.168.1.1">400</a></li>
+                <li><a href="https://192.168.1.1">500</a></li>
+                <li><a href="https://192.168.1.1">600</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="zhong-zhong">
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+          <div class="neirong">
+            <div class="pic">
+              <a href="http://192.168.1.1"><img src="./00.png" alt=""></a>
+            </div>
+            <div class="name">
+               <a href="http://192.168.1.1">CXK</a>
+            </div>
+            <div class="mark">
+              <a href="http://192.168.1.1">100</a>
+            </div>
+          </div>
+        </div>
+        <div class="xuan">
 
-      <div class="n1">
-        <h2>正文内容</h2>
-        <p>此处是第一个p测试</p>
-        <p>这里是第二个p测试</p>
+        </div>
       </div>
-
+      <div class="xia">
+        <a  class="xuan" href="http://192.168.1.1">1</a>
+        <a href="http://192.168.1.1">2</a>
+        <a href="http://192.168.1.1">next</a>
+      </div>
+    </div>
+    <div class="piao">
+      WARNING !! </br>
+      <a href="http://192.168.1.1">点此</a>
     </div>
 
   </body>
